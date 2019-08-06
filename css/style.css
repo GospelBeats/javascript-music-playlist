@@ -9,8 +9,8 @@ body{
 	font-family:arial;
 	font-size:13px;
 	line-height:1.5em;
-	color:#fff;
-	background: url(../images/bg.png);
+	color:rgb(41, 40, 40);
+	background: url(../images/bg2.png);
 }
 
 .clearfix{
@@ -20,13 +20,13 @@ body{
 #container{
 	width:330px;
 	min-height:400px;
-	background:#333;
+	background:#fff;
 	overflow:auto;
 	margin:60px auto;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	border-radius:10px;
-	border:#666 solid 2px;
+	border:#666 solid 10px;
 }
 
 #audio-image{
@@ -125,7 +125,8 @@ button#next{
 #playlist li.active {
     font-weight: bold;
 	padding:3px;
-	background:#666;
+	background:rgb(240, 236, 236);
+	border-radius: 8px;
 }
 
 #progressBar { 
@@ -139,7 +140,7 @@ button#next{
 }
 
 #progress {
-   background:url(../images/progress.png) no-repeat;
+   background:url(../images/progress-red.png) no-repeat;
    height:10px;
    display:inline-block;
 }
@@ -149,7 +150,8 @@ button#next{
 	top:0;
 	right:10px;
 	padding:4px 8px;
-	background:#000;
+	background:rgb(240, 235, 235);
 	border-radius:5px;
 }
+
 
